@@ -3,7 +3,7 @@
 @namespace      callumoakley.net/usercss
 @homepageURL    https://github.com/callum-oakley/usercss
 @updateURL      https://callumoakley.net/usercss/my.user.css
-@version        0.1.1
+@version        0.1.2
 ==/UserStyle== */
 
 @-moz-document domain("wikipedia.org") {
@@ -33,6 +33,11 @@
   .mw-body-content {
     font-size: unset;
     line-height: 1.4;
+  }
+
+  .infobox,
+  .toc {
+    width: 100% !important;
   }
 
   pre,
