@@ -1,0 +1,52 @@
+/* ==UserStyle==
+@name           Callum's usercss
+@namespace      github.com/callum-oakley/usercss
+@updateURL      https://github.com/callum-oakley/usercss/my.user.css
+@version        0.1.0
+==/UserStyle== */
+
+@-moz-document domain("wikipedia.org") {
+  html {
+    font-size: 19px;
+  }
+
+  body {
+    max-width: 40rem;
+    margin: auto;
+    background-color: unset;
+    font-family: serif;
+    font-kerning: normal;
+    hyphens: auto;
+    text-rendering: optimizeLegibility;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: unset !important;
+  }
+
+  .mw-body-content {
+    font-size: unset;
+    line-height: 1.4;
+  }
+
+  pre,
+  code {
+    font-size: 0.9rem;
+  }
+
+  #mw-navigation,
+  #mw-page-base,
+  #footer {
+    display: none;
+  }
+
+  #content {
+    border: unset;
+    margin: unset;
+  }
+}
