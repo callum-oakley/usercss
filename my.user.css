@@ -3,7 +3,7 @@
 @namespace      callumoakley.net/usercss
 @homepageURL    https://github.com/callum-oakley/usercss
 @updateURL      https://callumoakley.net/usercss/my.user.css
-@version        0.1.2
+@version        0.1.3
 ==/UserStyle== */
 
 @-moz-document domain("wikipedia.org") {
@@ -38,11 +38,16 @@
   .infobox,
   .toc {
     width: 100% !important;
+    border: unset;
+    background-color: unset;
+    color: unset;
   }
 
   pre,
   code {
     font-size: 0.9rem;
+    border: unset;
+    color: unset;
   }
 
   #mw-navigation,
