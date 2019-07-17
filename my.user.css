@@ -3,10 +3,10 @@
 @namespace      callumoakley.net/usercss
 @homepageURL    https://github.com/callum-oakley/usercss
 @updateURL      https://callumoakley.net/usercss/my.user.css
-@version        0.1.4
+@version        0.1.5
 ==/UserStyle== */
 
-@-moz-document domain("wikipedia.org") {
+@document domain("wikipedia.org") {
   html {
     font-size: 19px;
   }
@@ -56,7 +56,7 @@
   }
 }
 
-@-moz-document domain("github.com") {
+@document domain("github.com") {
   .tab-size,
   .highlight {
     tab-size: 4 !important;
