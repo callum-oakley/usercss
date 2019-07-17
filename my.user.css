@@ -35,9 +35,8 @@
     line-height: 1.4;
   }
 
-  .infobox,
-  .toc {
-    width: 100% !important;
+  .infobox th {
+    min-width: 6rem;
   }
 
   pre,
