@@ -3,7 +3,7 @@
 @namespace      callumoakley.net/usercss
 @homepageURL    https://github.com/callum-oakley/usercss
 @updateURL      https://callumoakley.net/usercss/my.user.css
-@version        0.1.5
+@version        0.1.6
 ==/UserStyle== */
 
 @document domain("wikipedia.org") {
@@ -15,7 +15,7 @@
     max-width: 45rem;
     margin: auto;
     background-color: unset;
-    font-family: serif;
+    font-family: serif, "Source Han Serif";
     font-kerning: normal;
     hyphens: auto;
     text-rendering: optimizeLegibility;
